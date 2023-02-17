@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM quay.io/guaravkumar9130/ubuntu-git
 RUN apt-get update -y
 RUN apt-get install apache2 -y
 COPY fbweb/ /var/www/html/
